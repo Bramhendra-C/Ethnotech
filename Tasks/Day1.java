@@ -1,14 +1,22 @@
+import java.util.Scanner;
 class Day1{
 	public static void main(String[] args){
-		int units = 350;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Eneter ele uints : ");
+		int units = sc.nextInt();
 		System.out.println("Electricty bill " + eleBill(units));
 		System.out.println();
 		
-		int n = 5;
+		System.out.print("Eneter pyramid size : ");
+		int n = sc.nextInt();
+		System.out.println();
 		PyramidPat(n);
 		System.out.println();
 		
-		LeftAgle(4);
+		System.out.print("Eneter left angle triablge size : ");
+		n = sc.nextInt();
+		System.out.println();
+		LeftAgle(n);
 	}
 	static int eleBill(int units){
 		return ((units > 250) & true) ? units - 250 : 0;

@@ -4,17 +4,17 @@ class BankBal {
 	
 	public static void main(String[] args) {
 		BankBal bank = new BankBal();
-		bank.setId(100);
-		System.out.println("Bank Balance : "+ bank.getId());
+		bank.setBal(100);
+		System.out.println("Bank Balance : "+ bank.getBal());
 	}
 	
 	private int bal;
 	
-	public void setId(int bal) {
+	public void setBal(int bal) {
 		this.bal = bal;
 	}
 	
-	public int getId() {
+	public int getBal() {
 		return bal; 
 	}
 

@@ -10,7 +10,7 @@ public class jaggedArray {
 		
 		for(int i=0;i<marks.length;i++) {
 			for(int j=0;j<marks[i].length;j++) {
-				marks[i][j] = (i - marks.length) * (j - marks.length);
+				marks[i][j] = (marks.length - i) * (5 + j);
 			}
 		}
 		

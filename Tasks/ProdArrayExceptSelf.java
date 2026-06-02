@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 package CODE;
 
+//Product of two arrays
 public class ProdArrayExceptSelf {
 
 	public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package CODE.Tasks;
 import java.util.*;
+
+//Array list opertions......
 public class ArrayListtOperations {
 
 	public static void main(String[] args) {
@@ -23,7 +25,7 @@ public class ArrayListtOperations {
 			System.out.print("Enter your choice : ");
 			int choice = input.nextInt();
 			System.out.println();
-			
+		
 			String song;
 			switch (choice) {
 				case 1:
@@ -61,6 +63,7 @@ public class ArrayListtOperations {
 					System.out.print("Enter song name : ");
 					song = input.next();
 					System.out.println("Play list have song or not : " + playlist.contains(song));
+					break;
 				case 10:
 					return;
 				
